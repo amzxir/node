@@ -1,13 +1,15 @@
 let number = 0;
 
-export function next() {
+function next() {
     return ++number;
 }
 
-export function prve() {
+function prve() {
     return --number;
 }
 
-export function square() {
+function square() {
     return number * number;
 }
+
+export { next, prve, square };
