@@ -1,11 +1,11 @@
-const myModule = require('./module.cjs');
+const { next, prve, square } = require('./module.cjs');
 
 const log = console.log;
 
-log(myModule.next());
-log(myModule.next());
-log(myModule.next());
-log(myModule.next());
-log(myModule.prve());
-log(myModule.square());
-log(myModule.prve());
+log(next());
+log(next());
+log(next());
+log(next());
+log(prve());
+log(square());
+log(prve());

@@ -1,11 +1,11 @@
-import * as myModule from "./module.mjs"
+import { next, prve, square } from "./module.mjs"
 
 const log = console.log;
 
-log(myModule.next());
-log(myModule.next());
-log(myModule.next());
-log(myModule.next());
-log(myModule.prve());
-log(myModule.square());
-log(myModule.prve());
+log(next());
+log(next());
+log(next());
+log(next());
+log(prve());
+log(square());
+log(prve());
